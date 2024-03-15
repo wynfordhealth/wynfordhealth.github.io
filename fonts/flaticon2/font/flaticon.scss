@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("truetype"),
+url("./flaticon.woff?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("woff"),
+url("./flaticon.woff2?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("woff2"),
+url("./flaticon.eot?10c5edc0ac5be86aa8f5f7dfcfcf0436#iefix") format("embedded-opentype"),
+url("./flaticon.svg?10c5edc0ac5be86aa8f5f7dfcfcf0436#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "physiotherapy": "\f101",
+    "human-footprint": "\f102",
+    "psychologist": "\f103",
+    "woolen-socks": "\f104",
+    "brace": "\f105",
+    "massage-spa-body-treatment": "\f106",
+    "massage": "\f107",
+    "chiropractic": "\f108",
+    "case": "\f109",
+);
+
+.flaticon-physiotherapy:before {
+    content: map-get($flaticon-map, "physiotherapy");
+}
+.flaticon-human-footprint:before {
+    content: map-get($flaticon-map, "human-footprint");
+}
+.flaticon-psychologist:before {
+    content: map-get($flaticon-map, "psychologist");
+}
+.flaticon-woolen-socks:before {
+    content: map-get($flaticon-map, "woolen-socks");
+}
+.flaticon-brace:before {
+    content: map-get($flaticon-map, "brace");
+}
+.flaticon-massage-spa-body-treatment:before {
+    content: map-get($flaticon-map, "massage-spa-body-treatment");
+}
+.flaticon-massage:before {
+    content: map-get($flaticon-map, "massage");
+}
+.flaticon-chiropractic:before {
+    content: map-get($flaticon-map, "chiropractic");
+}
+.flaticon-case:before {
+    content: map-get($flaticon-map, "case");
+}

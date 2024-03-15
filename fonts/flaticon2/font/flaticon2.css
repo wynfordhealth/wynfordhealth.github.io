@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "flaticon2";
+    src: url("./flaticon.ttf?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("truetype"),
+url("./flaticon.woff?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("woff"),
+url("./flaticon.woff2?10c5edc0ac5be86aa8f5f7dfcfcf0436") format("woff2"),
+url("./flaticon.eot?10c5edc0ac5be86aa8f5f7dfcfcf0436#iefix") format("embedded-opentype"),
+url("./flaticon.svg?10c5edc0ac5be86aa8f5f7dfcfcf0436#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon2 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon2-physiotherapy:before {
+    content: "\f101";
+}
+.flaticon2-human-footprint:before {
+    content: "\f102";
+}
+.flaticon2-psychologist:before {
+    content: "\f103";
+}
+.flaticon2-woolen-socks:before {
+    content: "\f104";
+}
+.flaticon2-brace:before {
+    content: "\f105";
+}
+.flaticon2-massage-spa-body-treatment:before {
+    content: "\f106";
+}
+.flaticon2-massage:before {
+    content: "\f107";
+}
+.flaticon2-chiropractic:before {
+    content: "\f108";
+}
+.flaticon2-case:before {
+    content: "\f109";
+}

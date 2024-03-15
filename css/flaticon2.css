@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Flaticon2";
+    src: url("../fonts/flaticon2/font/Flaticon.eot");
+    src: url("../fonts/flaticon2/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/flaticon2/font/Flaticon.woff") format("woff"),
+         url("../fonts/flaticon2/font/Flaticon.ttf") format("truetype"),
+         url("../fonts/flaticon2/font/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "Flaticon2";
+      src: url("../fonts/flaticon2/font/Flaticon.svg#Flaticon") format("svg");
+    }
+  }
+
+  [class^="flaticon2-"]:before, [class*=" flaticon2-"]:before,
+  [class^="flaticon2-"]:after, [class*=" flaticon2-"]:after {   
+    font-family: Flaticon2;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+.flaticon2-physiotherapy:before {
+    content: "\f101";
+}
+.flaticon2-human-footprint:before {
+    content: "\f102";
+}
+.flaticon2-psychologist:before {
+    content: "\f103";
+}
+.flaticon2-woolen-socks:before {
+    content: "\f104";
+}
+.flaticon2-brace:before {
+    content: "\f105";
+}
+.flaticon2-massage-spa-body-treatment:before {
+    content: "\f106";
+}
+.flaticon2-massage:before {
+    content: "\f107";
+}
+.flaticon2-chiropractic:before {
+    content: "\f108";
+}
+.flaticon2-case:before {
+    content: "\f109";
+}
